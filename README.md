@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## ScholarlyTrends - Trendy Research Topics
 
-You can use the [editor on GitHub](https://github.com/KatJHuang/ScholasTrends/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### What is ScholarlyTrends?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**ScholarlyTrends** uncovers trendy research directions by exploring citation data associated with publications.
 
-### Markdown
+### Motivation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Google Scholar is an indispensable tool when I'm stalking professors for grad school. Having spent some time poking around different profiles, I have observed a few interesting things:
+* Some researchers' publications have seen exponential growth of citations. Of course this is highly correlated with renewed and galvanized interests in their areas. To see what areas show this kind of behaviour would be a fun thing to do.
+* Maybe predict what areas will bloom?
+* See the rise and fall in research interest and understand why this happens 😎 (As a self-claimed student of history, this  really exhilarates me) 
 
-```markdown
-Syntax highlighted code block
+### Goals
+Explore the citation data and see what models them the best.
+Find relationship between trends and topics.
+Have more fun by "stalking" people systematically and scholarly.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KatJHuang/ScholasTrends/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Resources
+The following may be of help when retrieving data:
+* [Scholarly](https://pypi.org/project/scholarly/) python package for Google Scholar data retrieval
+* [scholar.py](https://github.com/ckreibich/scholar.py) another python library for GS :)
